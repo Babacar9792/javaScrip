@@ -1,0 +1,78 @@
+:root
+{
+    --couleurFond:rgb(44, 221, 198);
+    --colorbouton: green;
+    --colorIcone:white;
+}
+
+
+
+*
+{
+    padding:0;
+    margin:0;
+}
+
+.blanc
+{
+    color:var(--colorIcone);
+}
+#container
+{
+    display:flex;
+    flex-direction: column;
+    height: 25em;
+    width: 80%;
+    background-color: var(--couleurFond);
+    margin: 10em auto;
+    gap:1em;
+  
+
+}
+
+#second
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.entete
+{
+    height: 2em;
+    width: 100%;
+   
+    display: flex;
+    justify-content: end;
+}
+button
+{
+    background-color: var(--colorbouton);
+    height: 3em;
+    width: 6em;
+    color:var(--colorIcone);
+    cursor: pointer;
+}
+
+.composant
+{
+    margin: 0 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.icone
+{
+    position:relative;
+    display: flex;
+    width: 16em;
+    height: 2em;
+    background-color: var(--colorbouton);
+    border: 0.1em solid var(--colorbouton);
+    justify-content: end;
+    gap:3em;
+    
+
+}
+
+
